@@ -22,7 +22,9 @@ Setup:
 
   First, verify if your machine has the node installed by running the command `node -v` in a teminal. If you get to see a version, that means node is installed, otherwise, visit the [official page](https://nodejs.org/en/) of node to install the latest version of node js. After doing so, verify again following the same method.
 
-  Once the node is installed, you can use it by using the command `node` in the terminal and start to code in JS.
+  Once the node is installed, you can use it in a terminal by using the command `node` and start to code in JS.
+
+  Alternatively, we can create a js file, and run it by using the command `node <path/to/file>`
 
 </br>
 
