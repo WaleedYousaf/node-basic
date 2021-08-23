@@ -20,11 +20,15 @@ A blog site covering the basic concepts of NodeJS.
 Setup:
 ------
 
+  First, verify if your machine has the node installed by running the command `node -v` in a teminal. If you get to see a version, that means node is installed, otherwise, visit the [official page](https://nodejs.org/en/) of node to install the latest version of node js. After doing so, verify again following the same method.
+
+  Once the node is installed, you can use it by using the command `node` in the terminal and start to code in JS.
+
 </br>
 
 # Basic Concepts
 
-## Intro:
+## Intro
   JS has been `confined to run in the browser` for a long and used for FE and add interactivity. `Node allows JS to run on the machine or server`.
 
   Computer understands machine language which is in bits. On top of that, a simpler language i.e. assembly language is used. Then we have programming langs like C++ which then compiles to assembly and so on.
@@ -37,7 +41,7 @@ Setup:
 
   Since we are using the JS `outside the browser` now, we `lose access` to JS features like `DOM`, we cant `interact with HTML` but we dont need it cuz we are using it as a BE server.
 
-  ### Flow:
+  ### Flow
   
   We'll use node to `handle the requests` from a browser or a client. The flow would be somewhat like: a `request comes from the browser`, `Node accepts` it and `fetches data from DB/files` and `formulates a response`. That response could be an HTML page with dynamic data embedded or with some CSS or image data etc.
 
